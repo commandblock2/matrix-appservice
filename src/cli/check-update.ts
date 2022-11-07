@@ -1,5 +1,5 @@
-import readPkgUp            from 'read-pkg-up'
-import { UpdateNotifier }   from 'update-notifier'
+import readPkgUp from 'read-pkg-up'
+import UpdateNotifier from 'update-notifier'
 
 import { codeRoot } from '../config.js'
 
@@ -14,7 +14,7 @@ export function checkUpdate (): void {
       // 1 week
       const updateCheckInterval = 1000 * 60 * 60 * 24 * 7
 
-      const notifier  = new UpdateNotifier({
+      const notifier = UpdateNotifier({
         pkg,
         updateCheckInterval,
       })
