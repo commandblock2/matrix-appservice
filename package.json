@@ -72,7 +72,7 @@
     "@chatie/tsconfig": "^4.6.3",
     "@types/nedb": "^1.8.12",
     "@types/qrcode-terminal": "^0.12.0",
-    "@types/update-notifier": "^5.1.0",
+    "@types/update-notifier": "^6.0.1",
     "nodemon": "^2.0.14",
     "pkg-jq": "^0.2.11",
     "qrcode-terminal": "^0.12.0",
